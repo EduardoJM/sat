@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CCC;
+    flex-direction: column;
+}
+
+body canvas {
+    background: #FFF;
+    border: 1px solid #333;
+}
